@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+img{
+    width: 5%;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.link a{
+    position: relative;
+    padding-bottom: 0.75rem;
+    color: #000;
+}
+
+.link a::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transition: all 0.2s ease;
+}
+
+.link a:hover::after{
+    width: 80%;
+}
+
+.btn{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: blue;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: all 0.2s ease;
+}
+
+.btn:hover{
+    background-color: rgb(26, 26, 152);
+}
+
+.container-1{
+    max-width: 1200px;
+    margin: auto;
+    padding: 5rem 2rem;
+}
+
+header{
+    position: relative;
+    padding-top: 2rem;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+header .box-1 h3{
+    margin-bottom: 1rem;
+    color: #f49609;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header .box-1 h1{
+    color: #398551;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+header .box-1 span{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #094aff;
+}
+
+header .box-1 p{
+    margin-bottom: 2rem;
+    color: #2aa7a9;
+}
+
+.image{
+    display: flex;
+    height: 230px;
+    width: 300px;
+}
+
+.text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #314d9a;
+    text-align: center;
+}
+
+.box-2{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+img{
+    padding: 30px 20px;
+    margin: 0 20px;
+    width: 130px;
+    height: 150px;
+}
